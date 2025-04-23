@@ -67,7 +67,7 @@ async def play(ctx):
 async def quote(ctx):
   url = "https://quotes15.p.rapidapi.com/quotes/random/"
   headers = {
-      'x-rapidapi-key': "1d637c2c66msh77cac6d05221b56p1e511ajsndc31cf065f0c",
+      'x-rapidapi-key': "", # API KEY
       'x-rapidapi-host': "quotes15.p.rapidapi.com"
       }
   response = requests.request("GET", url, headers=headers)
